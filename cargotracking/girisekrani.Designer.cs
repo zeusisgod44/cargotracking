@@ -146,6 +146,7 @@
             this.label1.Size = new System.Drawing.Size(144, 37);
             this.label1.TabIndex = 4;
             this.label1.Text = "GİRİŞ YAP";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -153,9 +154,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(121)))), ((int)(((byte)(138)))));
             this.label2.Location = new System.Drawing.Point(59, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(181, 13);
+            this.label2.Size = new System.Drawing.Size(183, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "giriş yapmak için bilgileleri doldurunuz";
+            this.label2.Text = "sikiş yapmak için bilgileleri doldurunuz";
             // 
             // guna2GradientButton2
             // 
