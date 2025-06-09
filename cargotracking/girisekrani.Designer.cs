@@ -201,9 +201,9 @@
             this.guna2Panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guna2Panel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Panel3.BackgroundImage")));
-            this.guna2Panel3.Location = new System.Drawing.Point(12, 100);
+            this.guna2Panel3.Location = new System.Drawing.Point(-7, -9);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(276, 264);
+            this.guna2Panel3.Size = new System.Drawing.Size(295, 386);
             this.guna2Panel3.TabIndex = 7;
             this.guna2Panel3.UseTransparentBackground = true;
             this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
