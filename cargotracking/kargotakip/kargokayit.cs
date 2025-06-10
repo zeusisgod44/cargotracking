@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cargotracking
+namespace cargotracking.kargotakip
 {
-    public partial class ucSidebar : UserControl
+    public partial class kargokayit : Form
     {
-        public ucSidebar()
+        public kargokayit()
         {
             InitializeComponent();
         }

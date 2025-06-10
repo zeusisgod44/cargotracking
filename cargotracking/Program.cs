@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
+using cargotracking.arayüz;
+using cargotracking.kargotakip;
 
 namespace cargotracking
 {
@@ -16,7 +19,8 @@ namespace cargotracking
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new girisekrani());
+            // Burada namespace + sınıf adı:
+            Application.Run(new frmKargoTakip());
         }
     }
 }

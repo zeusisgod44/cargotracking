@@ -41,6 +41,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +59,12 @@
     <Compile Include="arayüz\dashboard.Designer.cs">
       <DependentUpon>dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="arayüz\frmResimGuncellePOPUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arayüz\frmResimGuncellePOPUP.Designer.cs">
+      <DependentUpon>frmResimGuncellePOPUP.cs</DependentUpon>
+    </Compile>
     <Compile Include="arayüz\ucSidebar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,6 +76,30 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakip\frmKargoTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kargotakip\frmKargoTakip.Designer.cs">
+      <DependentUpon>frmKargoTakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakip\kargokayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kargotakip\kargokayit.Designer.cs">
+      <DependentUpon>kargokayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakip\kargokayitpp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kargotakip\kargokayitpp.Designer.cs">
+      <DependentUpon>kargokayitpp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kargotakip\ucKargoKart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kargotakip\ucKargoKart.Designer.cs">
+      <DependentUpon>ucKargoKart.cs</DependentUpon>
     </Compile>
     <Compile Include="logregscreen\girisekrani.cs">
       <SubType>Form</SubType>
@@ -84,6 +115,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlBaglanti.cs" />
+    <Compile Include="ucSidebarFix.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSidebarFix.Designer.cs">
+      <DependentUpon>ucSidebarFix.cs</DependentUpon>
+    </Compile>
+    <None Include="Resources\dashboard.png" />
     <Content Include="sidebar.cs">
       <SubType>UserControl</SubType>
     </Content>
@@ -93,11 +132,26 @@
     <EmbeddedResource Include="arayüz\dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="arayüz\frmResimGuncellePOPUP.resx">
+      <DependentUpon>frmResimGuncellePOPUP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="arayüz\ucSidebar.resx">
       <DependentUpon>ucSidebar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargotakip\frmKargoTakip.resx">
+      <DependentUpon>frmKargoTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargotakip\kargokayit.resx">
+      <DependentUpon>kargokayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargotakip\kargokayitpp.resx">
+      <DependentUpon>kargokayitpp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kargotakip\ucKargoKart.resx">
+      <DependentUpon>ucKargoKart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="logregscreen\girisekrani.resx">
       <DependentUpon>girisekrani.cs</DependentUpon>
@@ -117,6 +171,9 @@
     </Compile>
     <EmbeddedResource Include="sidebar.resx">
       <DependentUpon>sidebar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSidebarFix.resx">
+      <DependentUpon>ucSidebarFix.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
