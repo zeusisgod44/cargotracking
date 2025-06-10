@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cargotracking
+namespace cargotracking.arayüz
 {
-    public partial class arayüz : Form
+    public partial class dashboard : Form
     {
-        public arayüz()
+        public dashboard()
         {
             InitializeComponent();
         }

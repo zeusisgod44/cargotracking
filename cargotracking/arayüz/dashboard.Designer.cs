@@ -1,6 +1,6 @@
-﻿namespace cargotracking
+﻿namespace cargotracking.arayüz
 {
-    partial class arayüz
+    partial class dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -36,15 +36,13 @@
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
-            // arayüz
+            // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(850, 550);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "arayüz";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "arayüz";
+            this.Name = "dashboard";
             this.ResumeLayout(false);
 
         }

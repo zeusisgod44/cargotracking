@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace cargotracking
+namespace cargotracking.arayüz
 {
-    public partial class Form1 : Form
+    public partial class ucSidebar : UserControl
     {
-        public Form1()
+        public ucSidebar()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void ucSidebar_Load(object sender, EventArgs e)
         {
-
+            // Yüklenince yapılacak işlemler
         }
     }
 }
